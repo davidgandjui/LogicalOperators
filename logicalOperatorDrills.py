@@ -118,24 +118,25 @@ True
 #  ) c = 12
 #  ) d = 6
 #  ) (a/b) == (12/6) and (c/2) == d
-
+True
 #16) a = "something"
 #  ) b = "some thing"
 #  ) a == b and b == 2
-
+False
 #17) a = "word"
 #  ) b = "word"
 #  ) word = "incorrect"
 #  ) a == b and b == word
-
+False
 #18) a = True
 #  ) a == True and not True == False
-
+False
 #19) a = True
 #  ) b = False
 #  ) a == b or not a == b
-
+True
 #20) a = True
 #  ) A = False
 #  ) b = False
 #  ) A == b or a == b
+True
